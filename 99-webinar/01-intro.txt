@@ -1,0 +1,12 @@
+DATASTRUCTURE with key value pair - HASH TABLE [KEY : VALUE] - Unordered_Maps
+    COMPLEXITY:  O(1) on average
+    ORDER: random
+    IMPLEMENTATION: Unordered_Maps (hashtable)
+    OPERATIONS:
+        - insert O(1)
+        - search O(1)
+        - erase  O(1)
+
+HASHTABLE [KEYS] - Unordered_Sets
+    OPERATIONS:
+        mostly in O(1)

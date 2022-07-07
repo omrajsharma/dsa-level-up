@@ -1,0 +1,7 @@
+array pairs
+Unordered_Sets
+Maps & Unordered_Maps(key-value)
+Sets & Unordered_Sets(key)
+Multimaps & Unordered Multimaps
+hashing with separate chaining
+list and diff btw array, vector 
