@@ -5,3 +5,6 @@ Sets & Unordered_Sets(key)
 Multimaps & Unordered Multimaps
 hashing with separate chaining
 list and diff btw array, vector 
+
+TYPE OF ERROR
+SEGMENTATION FAULTS

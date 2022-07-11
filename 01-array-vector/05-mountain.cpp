@@ -14,30 +14,38 @@
 using namespace std;
 
 void mountainPeak(vector<int> arr){
+    int maxPeak = INT_MIN;
     int length = 0;
     int maxLength = 0;
     
-    for(int i=0; i<arr.size(); i++){
+    for(int i=1; i<arr.size()-1; i++){
+
+        // check for peak 
         if(arr[i] > arr[i-1] && arr[i] > arr[i+1]){
+            
+            // check for the highest peak
+            if(maxPeak < arr[i]){
+                maxPeak = arr[i];
+            }
 
             // find the length of the mountain
             int j = i;
-            while(arr[j] > arr[j-1]){
+            while(arr[j] > arr[j-1] and j>0){
                 j--;
             }
             int k = i;
-            while(arr[k] > arr[k+1]){
+            while(arr[k] > arr[k+1] and j<arr.size()-1){
+                i++;
                 k++;
             }
             length = k-j+1;
 
             // find the max length of the mountain
-            if(length > maxLength){
-                maxLength = length;
-            }
+            maxLength = max(maxLength, length);
         }
     }
     cout << "The length of the mountain is " << maxLength << endl;
+    cout << "Max peak so far is " << maxPeak << endl;    
 }
 
 int main() {
