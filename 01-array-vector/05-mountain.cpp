@@ -6,6 +6,8 @@
 // 1. Identify the peak of the mountain.
 // 2. Find the length of the mountain.
 
+// Time Complexity - O(2N)
+
 #include <iostream>
 #include <vector>
 #include <climits>
