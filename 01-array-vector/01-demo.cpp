@@ -17,7 +17,8 @@ int main() {
     // IMPORTANT FUNCTION - pop back, insert, erase, fill constructor
     // Fill constructor
     // vector<int> visited(100,0);
-
+    
+    // Hey Om, just chill bro. I am just playing around. 
 
     // print all elements
     for(int i=0; i<arr.size(); i++)
